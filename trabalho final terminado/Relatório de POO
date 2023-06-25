@@ -1,0 +1,31 @@
+Relatório: Sistema de Biblioteca (com Programação Orientada a Objetos)
+
+    Introdução
+    O sistema de biblioteca em Python é um programa que permite o gerenciamento básico de uma biblioteca, utilizando os princípios da Programação Orientada a Objetos (POO). O sistema utiliza a biblioteca tkinter para criar uma interface gráfica simples e interativa.
+
+    Arquivos e Lógica de Programação Orientada a Objetos
+    O sistema é composto por vários arquivos Python, e a lógica de programação orientada a objetos é aplicada na estrutura e organização do código. Os principais aspectos da POO presentes no sistema são:
+
+    Classes: Os arquivos livro.py e livro_raro.py definem as classes Livro e LivroRaro, respectivamente. Essas classes representam os livros na biblioteca e possuem atributos e métodos para manipular suas informações. A POO permite encapsular dados e funcionalidades relacionadas em objetos, tornando o código mais modular e reutilizável.
+
+    Herança: A classe LivroRaro é uma subclasse da classe Livro, o que significa que ela herda os atributos e métodos da classe pai. A herança permite estabelecer uma relação de especialização entre as classes, onde a classe LivroRaro herda as características básicas da classe Livro e acrescenta atributos específicos dos livros raros. Isso evita a duplicação de código e facilita a extensibilidade do sistema.
+
+    Instanciação de Objetos: No arquivo interface_grafica.py, são criadas instâncias das classes Livro e LivroRaro para representar os livros cadastrados na biblioteca. Isso permite manipular e acessar os dados desses livros por meio dos objetos correspondentes, usando seus métodos e atributos.
+
+    Método Construtor: As classes Livro e LivroRaro possuem métodos construtores __init__, que são responsáveis por inicializar os objetos com os valores iniciais dos atributos. O método construtor é chamado automaticamente quando um objeto é criado a partir de uma classe e permite configurar seu estado inicial.
+
+    Encapsulamento e Acesso a Atributos: Os atributos das classes são definidos como privados (utilizando o prefixo _), o que significa que eles não devem ser acessados diretamente fora da classe. Em vez disso, são usados métodos getter e setter para obter e modificar os valores dos atributos de forma controlada. Isso promove o encapsulamento e a proteção dos dados, evitando alterações indevidas.
+
+    Funcionalidades e Benefícios da Programação Orientada a Objetos
+    O sistema de biblioteca utiliza a POO para fornecer as seguintes funcionalidades:
+
+    Cadastro de funcionários e clientes: Através da criação de objetos das classes Funcionario e Cliente, é possível cadastrar novos funcionários e clientes no sistema.
+
+    Login: Os objetos de funcionários e clientes possuem métodos para realizar o login no sistema, verificando a correspondência das informações de login com os dados armazenados.
+
+    Busca e listagem de livros: Os objetos de livros (tanto Livro quanto LivroRaro) possuem métodos para buscar e exibir informações dos livros cadastrados na biblioteca. O sistema permite buscar livros pelo título e exibir os detalhes dos livros encontrados.
+
+    Interface gráfica interativa: Através da biblioteca tkinter, o sistema apresenta uma interface gráfica com botões e janelas para facilitar a interação do usuário com as funcionalidades disponíveis.
+
+    Conclusão
+    O sistema de biblioteca em Python utiliza a Programação Orientada a Objetos para criar uma estrutura organizada e modular. Através da definição de classes, herança, encapsulamento e instanciação de objetos, o código é organizado de maneira mais intuitiva, reutilizável e fácil de entender. A POO permite abstrair os conceitos do mundo real (como livros, clientes e funcionários) em objetos com características e comportamentos específicos, melhorando a manutenção e extensibilidade do sistema. No contexto do sistema de biblioteca, a POO ajuda a gerenciar os dados, interações e funcionalidades relacionadas à biblioteca de forma eficiente e estruturada.
